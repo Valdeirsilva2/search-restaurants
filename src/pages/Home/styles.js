@@ -21,6 +21,7 @@ place-items: center;
 `;
 
 export const ImgLogo = styled.img` 
-    width: 50%
+    width: 50%;
+    margin-bottom: 1rem;
 `
 ;

@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
+export const Wrapper = styled.div`
+    display: flex;
+    flex-direction: row;
+`
+
 export const Container = styled.main`
-    width: 100%;
     height: 100%;
+    max-width: 360px;
+    width: 100%;
 `;
 
 export const Aside = styled.aside`
@@ -25,3 +31,8 @@ export const ImgLogo = styled.img`
     margin-bottom: 1rem;
 `
 ;
+
+export const Map = styled.div`
+    background-color: red;
+    width: 100%;
+`

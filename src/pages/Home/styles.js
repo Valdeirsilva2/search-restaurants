@@ -22,17 +22,25 @@ display: flex;
 flex-direction: column;
 background: #fff;
 padding: 1rem;
-display: grid;
-place-items: center;
 `;
 
 export const ImgLogo = styled.img` 
     width: 50%;
     margin-bottom: 1rem;
+    margin: 1rem auto;
 `
 ;
 
 export const Map = styled.div`
     background-color: red;
     width: 100%;
+`
+
+export const CarouselTitle = styled.h1`
+    font-size: 24px;
+    margin:  1rem 0;
+    font-weight: bold;
+    text-align: start;
+    width: 100%;
+    font-family: ${(props) => props.theme.fonts.regular};
 `

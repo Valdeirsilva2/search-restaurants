@@ -14,9 +14,12 @@ export const Home = () => {
 
     var settings = {
         dots: false,
+        loop: true,
         infinite: true,
         speed: 500,
         margin: 10,
+        ToScroll: 4,
+        veHeight: 4,
         slidesToShow: 4,
         slidesToScroll: 1
       };
@@ -42,13 +45,13 @@ export const Home = () => {
                         </TextField>
                         <CarouselTitle>Na sua Area</CarouselTitle>
                         <Slider {...settings}>                           
-                               <Card photo={imgThumb} />
-                               <Card photo={imgThumb} />
-                               <Card photo={imgThumb} />
-                               <Card photo={imgThumb} />
-                               <Card photo={imgThumb} />
-                               <Card photo={imgThumb} />
-                               <Card photo={imgThumb} />
+                               <Card photo={imgThumb} title={"restaurante 1"} />
+                               <Card photo={imgThumb} title={"restaurante 2"} />
+                               <Card photo={imgThumb} title={"restaurante 3"} />
+                               <Card photo={imgThumb} title={"restaurante 4"} />
+                               <Card photo={imgThumb} title={"restaurante 5"} />
+                               <Card photo={imgThumb} title={"restaurante 6"} />
+                               <Card photo={imgThumb} title={"restaurante 7"} />
                         </Slider>
                     </Search>
                 </Aside>

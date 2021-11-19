@@ -15,7 +15,7 @@ export const Aside = styled.aside`
     background-color: ${(props) => props.theme.colors.background};
     height: 100vh;
     max-width: 360px;
-    overflow-y: auto;
+    overflow-x: auto;
 `
 export const Search = styled.section`
 display: flex;
